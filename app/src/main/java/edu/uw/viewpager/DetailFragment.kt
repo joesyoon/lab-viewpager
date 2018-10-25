@@ -36,6 +36,7 @@ class DetailFragment : Fragment() {
 
     companion object {
 
+        val TAG = "DetailFragment"
         val MOVIE_PARCEL_KEY = "movie_parcel"
 
         fun newInstance(movie: Movie): DetailFragment {
